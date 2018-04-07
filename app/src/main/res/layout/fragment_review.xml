@@ -1,0 +1,27 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="enzapps.com.hajath.Review">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:background="#FAFAFA"
+                    android:gravity="center"
+                    android:text="Rate and write review"
+                    android:elevation="10dp"
+                    android:layout_margin="5dp"
+                    android:id="@+id/btn_addreview"/>
+                <enzapps.com.hajath.Nonscrolllistview
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:id="@+id/lst_review"></enzapps.com.hajath.Nonscrolllistview>
+        </LinearLayout>
+
+</ScrollView>
